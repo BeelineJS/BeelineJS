@@ -18,8 +18,9 @@ You can use one or more templates in a component using `require`
 ### Components
 Components contains 3 main functions:
 - `create`: returns the template to be loaded as element to the page
-- `init`: called after the element was added to the page.
-can be used to set user, document or/and window events.
+- `init`: called after the element was added to the page. can be used to set user, document or/and window events.
+- `render`: redraw the components based on the changes.
+
 
 ### Layouts
 Layouts are static html templates used to position elements on the page
