@@ -46,4 +46,4 @@ Once a `viewData` is loaded all the `dKey` bounded views will be updated.
 Layouts will be added followed by views.
 Events will be dispatched to the views linked by `mKey`.
 
-After each load the core will clear and the views, model and layouts not in use.
+After each load the core will clear and the `views`, `models` and `layouts` not in use.
