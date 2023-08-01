@@ -4,21 +4,21 @@ BeelineJS is a bootstrap, mini framework to get you started on developing single
 The app is compiled by webpack and a prebuild node script generating components, templates and layouts.
 
 ## Testable
-Core and all compopnents are testable.
+Core and all components are testable.
 Using `doc = document` and `win = windows` injected to the context allowing to use JSDoc with Jest or
 any other test engine.
 
 ## Context
-All components are using context and their inpout argument, allowing safer cohernt coding.
+All components are using context and their input  argument, allowing safer and coherent coding.
 
 `function xxx(context){
    const { e, view, data, value, doc, win } = context;
    ...
 }`
 
-The context includes the functionallity to easily access the code and build new functionality
+The context includes the functionality  to easily access the code and build new functionality
 
-## Centrelized events
+## Centralized events
 Events are created at the document level and auto dispatched to all the components.
 You can write a complete application without the need to `addEventListener`.
 
