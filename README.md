@@ -34,7 +34,7 @@ The stucture is flexible and well formated.
 
 ## data load
 All pages and page refresh are loaded via the `OnLoad` function.
-A load action can contain one or all of the following:
+A load action can contain one or all the following:
 - Models
 - Layouts
 - Views
