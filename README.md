@@ -4,22 +4,22 @@ BeelineJS is a bootstrap, mini framework to get you started on developing single
 The app is compiled by webpack and a prebuild node script generating components, templates and layouts.
 
 ## Centrelized events
-Events are created at the document level and auto dispathched to all the components.
-You can write a complete application without the need to addEventListener.
+Events are created at the document level and auto dispatched to all the components.
+You can write a complete application without the need to `addEventListener`.
 
 ## Key bindings
 The binding is done by a string model key, the core will find and notify all the linked view/components if a changed was made to their model.
 
-## Pre-compiled tempaltes, components and layouts
+## Pre-compiled templates, components and layouts
 ### Templates
 Templates are html files that are compiled into `html.js`.
 You can use one or more templates in a component using `require`
 
 ### Components
-Componets contains 3 main functions:
+Components contains 3 main functions:
 - `create`: returns the template to be loaded as element to the page
 - `init`: called after the element was added to the page.
-can be used to set user,document or/and window events.
+can be used to set user, document or/and window events.
 
 ### Layouts
 Layouts are static html templates used to position elements on the page
