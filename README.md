@@ -8,23 +8,6 @@ Core and all components are testable.
 Using `doc = document` and `win = windows` injected to the context allowing to use JSDoc with Jest or
 any other test engine.
 
-## Context
-All components are using context and their input  argument, allowing safer and coherent coding.
-
-`function xxx(context){
-   const { e, view, data, value, doc, win } = context;
-   ...
-}`
-
-The context includes the functionality  to easily access the code and build new functionality
-
-## Centralized events
-Events are created at the document level and auto dispatched to all the components.
-You can write a complete application without the need to `addEventListener`.
-
-## Key bindings
-The binding is done by a string model key, the core will find and notify all the linked view/components if a changed was made to their model.
-
 ## Pre-compiled templates, components and layouts
 ### Templates
 Templates are html files that are compiled into `html.js`.
@@ -63,3 +46,20 @@ Layouts will be added followed by views.
 Events will be dispatched to the views linked by `mKey`.
 
 After each load the core will clear and the `views`, `models` and `layouts` not in use.
+
+## Context
+All components are using context and their input  argument, allowing safer and coherent coding.
+
+`function xxx(context){
+   const { e, view, data, value, doc, win } = context;
+   ...
+}`
+
+The context includes the functionality  to easily access the code and build new functionality
+
+## Centralized events
+Events are created at the document level and auto dispatched to all the components.
+You can write a complete application without the need to `addEventListener`.
+
+## Key bindings
+The binding is done by a string model key, the core will find and notify all the linked view/components if a changed was made to their model.
