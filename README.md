@@ -1,12 +1,15 @@
 # BeelineJS
 
-BeelineJS is a bootstrap, mini framework to get you started on developing single page application.
+BeelineJS is a front-end bootstrap, mini framework to get you started on developing single page application.
 The app is compiled by webpack and a prebuild node script generating components, templates and layouts.
+
+It is was build in mind for server side generated pages but can be used for any single page website.
 
 ## Fully Testable
 Core and all components are testable.
 Using `doc = document` and `win = windows` injected to the context allowing to use JSDoc with Jest or
 any other test engine.
+
 
 ## Pre-compiled templates, components and layouts
 ### Templates
