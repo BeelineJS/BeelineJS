@@ -53,14 +53,6 @@ MyLayout
 - MyLayout.scss  
 ```
 
-### Great stucture
-The stucture is flexible and well formated.
-- build: run before the app is built.
-- app: contains the core and the first load
-- components: factory generated components.
-- layouts: factory generated layouts.
-- style: style generated from layouts and components into a single file.
-
 ## data load
 All pages and page refresh are loaded via the `OnLoad` function.
 A load action can contain one or all the following:
@@ -71,7 +63,7 @@ A load action can contain one or all the following:
 - Events
 
 Once a `model` is loaded all the `mKey` bounded views will be updated.
-Once a `viewData` is loaded all the `dKey` bounded views will be updated.
+Once a `viewModel` is loaded all the vmKey` bounded views will be updated.
 Layouts will be added followed by views.
 Events will be dispatched to the views linked by `mKey`.
 
