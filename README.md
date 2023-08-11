@@ -24,7 +24,7 @@ any other test engine.
 Templates are html files that are compiled into `html.js`.
 You can use one or more templates in a component using `require`
 
-Paragraph.html: `<p>${value}</p>`\n
+Paragraph.html: `<p>${value}</p>`/
 Paragraph.html.js: `module.exports = (value) => <p>${value}</p>` (compiled)
 Once loaded to the dom: `<p data-id="1A" class="Paragraph">Hello Bee</p>`
 
