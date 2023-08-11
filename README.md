@@ -34,10 +34,15 @@ Components contains 3 main functions:
 - `create`: returns the template to be loaded as element to the page
 - `init`: called after the element was added to the page. can be used to set user, document or/and window events.
 - `render`: redraw the components based on the changes.
+- `destroy`: can be used for custom listeners
 
 
 ### Layouts
 Layouts are static html templates used to position elements on the page
+
+MyLayout  
+- MyLayout.html  
+- MyLayout.scss  
 
 ### Great stucture
 The stucture is flexible and well formated.
