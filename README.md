@@ -39,10 +39,11 @@ Components contains 3 main functions:
 
 ### Layouts
 Layouts are static html templates used to position elements on the page
-
+```
 MyLayout  
 - MyLayout.html  
 - MyLayout.scss  
+```
 
 ### Great stucture
 The stucture is flexible and well formated.
