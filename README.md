@@ -38,7 +38,7 @@ Components contains 3 main functions:
 
 ```
 MyButton
--MyButton.scss
+- MyButton.scss
 - MyButtom.html
 - MyButton.html.js (compiled)
 - MyButton.js
