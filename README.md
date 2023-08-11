@@ -36,6 +36,14 @@ Components contains 3 main functions:
 - `render`: redraw the components based on the changes.
 - `destroy`: can be used for custom listeners
 
+```
+MyButton
+-MyButton.scss
+- MyButtom.html
+- MyButton.html.js (compiled)
+- MyButton.js
+- MyButton.spec.js
+```
 
 ### Layouts
 Layouts are static html templates used to position elements on the page
