@@ -1,9 +1,17 @@
 # BeelineJS
 
-BeelineJS is a front-end bootstrap, mini framework to get you started on developing single page application.
-The app is compiled by webpack and a prebuild node script generating components, templates and layouts.
+Front-end bootstrap, mini framework to get you started on developing single page application.
+Built for server side generated pages and can be used for other type single page website.
 
-It is was build in mind for server side generated pages but can be used for any single page website.
+### Compile
+run `build <component path> <layout path>`
+run `webpack`
+config script cab be set as:
+```
+ "scripts": {
+    "todo": "node build src/components src/layouts && webpack --mode development"
+  },
+```
 
 ## Fully Testable
 Core and all components are testable.
@@ -15,6 +23,10 @@ any other test engine.
 ### Templates
 Templates are html files that are compiled into `html.js`.
 You can use one or more templates in a component using `require`
+
+Paragraph.html: `<p>${value}</p>`
+Paragraph.html.js: `module.exports = (value) => `<p>${value}</p>` (compiled)
+Once loaded to the dom: `<p data-id="1A" class="Paragraph">Hello Bee</p>`
 
 ### Components
 Components contains 3 main functions:
