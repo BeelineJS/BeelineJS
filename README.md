@@ -73,7 +73,15 @@ After each load the core will clear and the `views`, `models` and `layouts` not 
 All components are using context and their input  argument, allowing safer and coherent coding.
 
 `function xxx(context){
-   const { e, view, data, value, doc, win } = context;
+   const {
+      e, 
+      view, 
+      data, 
+      value, 
+      events,
+      util,
+      doc, 
+      win } = context;
    ...
 }`
 
