@@ -71,7 +71,7 @@ After each load the core will clear and the `views`, `models` and `layouts` not 
 
 ## Context
 All components are using context and their input  argument, allowing safer and coherent coding.
-,,,
+```
 function create/init/render/destroy(context){
    const {
       e, 
@@ -85,7 +85,7 @@ function create/init/render/destroy(context){
       win } = context;
    ...
 }
-,,,
+```
 
 The context includes the functionality  to easily access the code and build new functionality
 
