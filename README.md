@@ -59,7 +59,7 @@ A load action can contain one or all the following:
 - Models
 - Layouts
 - Views
-- ViewData
+- ViewModel (view relates data and definitions)  
 - Events
 
 Once a `model` is loaded all the `mKey` bounded views will be updated.
